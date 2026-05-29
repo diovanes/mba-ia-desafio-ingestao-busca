@@ -21,7 +21,7 @@ Edite o `.env` com sua chave:
 ```
 GOOGLE_API_KEY=sua_chave_aqui
 GOOGLE_EMBEDDING_MODEL=models/gemini-embedding-001
-DATABASE_URL=postgresql+psycopg://postgres:postgres@localhost:5433/rag
+DATABASE_URL=postgresql+psycopg://postgres:postgres@localhost:5432/rag
 PG_VECTOR_COLLECTION_NAME=documents
 PDF_PATH=document.pdf
 ```
